@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+display: flex;
+}
+
+.navbar{
+width: 350px;
+align-items: center;
+background: #fafafa;
+}
+.navbar ul{
+padding: 23px;
+margin-top: -54px;
+}
+.logo{
+padding: 45px 71px;
+font-family: 'Abril Fatface', cursive;
+color: #000000;
+font-size: 40px;
+font-weight: 100;
+margin-bottom: -12px;
+}
+.navbar ul li{
+list-style: none;
+padding: 24px 53px;
+}
+.navbar ul li a{
+font-family: 'Open Sans', sans-serif;
+text-decoration: none;
+color: #111;
+font-size: 18px;
+}
+.navbar .btn{
+text-decoration: none;
+color: #fff7f7;
+background: #ff4e4e;
+margin: 0 76px;
+padding: 14px 74px;
+line-height: 4;
+border-radius: 38px;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+.paragraph{
+display: block;
+padding: 26px 16px;
+background: #fafafa;
+}
+.paras{
+    display: flex;
+}
+.paras1{
+    margin-top: 110px;font-size: 19px;
+   line-height: 25px;
+
+}
+.paras h1{
+font-family: 'Abril Fatface', cursive;
+padding: 72px 50px;
+font-size: 78px;
+font-weight: 100;
+}
+.cards{
+padding: 0 28px;
+}
+.cart{
+display: flex;
+}
+.images{
+height: 235px;
+width: 190px;
+margin: 0 13px;
+background: #ffffff;
+box-shadow: 27px 29px 19px #d8d8d8;
+border-radius: 23px;
+}
+.images img{
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.images h5{
+    text-align: center;
+    margin-top: 25px;
+}
